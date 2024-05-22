@@ -1,0 +1,55 @@
+h1, h4 {
+    font-weight: 1500;
+    font-size: 40px;
+    text-align: center;
+}
+
+h1{
+    padding-top: 50px;
+}
+
+
+head {
+    padding: 20px;
+}
+
+html, body {
+    padding: 20px;
+    background-image: linear-gradient(to bottom right, #b3ffff, #b3ffd9);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+#coordsForm, #cityForm {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 450px;
+    background: rgb(255, 255, 255, 0.9);
+
+}
+
+#weatherResultCoords, #weatherResultCity {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#weatherTitleCoords, #weatherTitleCity{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nav-pills {
+    justify-content: center;
+}
+
+.nav-pills .nav-link {
+    margin-right: 10px;
+}
