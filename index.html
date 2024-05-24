@@ -24,7 +24,23 @@
     </div>
     
     <div class="tab-content">
-        <div id="coords" class="container tab-pane"><br>
+        <div id="myLocationWeather" class="container tab-pane fade"><br>
+            <h4>Press the button to check the weather in your location</h4>
+            <div class="container mt-5">
+                <div class="row">
+                    <form id="cityForm" class="col-md-6 mx-auto text-center">
+                        <button type="submit" class="btn btn-primary">Get the weather</button>
+                    </form> 
+                </div>
+                <div class="row">
+                    <div class="mt-5 col-md-6 mx-auto" id="myLocationWeatherData">
+                        <h4 id="weatherMyLocationTitle"></h4>
+                        <p id="weatherMyLocationResult"></p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+        <div id="coords" class="container tab-pane fade"><br>
             <h4>Insert the coordinates to check the weather</h4>
             <div class="container mt-5">
                 <div class="row">
